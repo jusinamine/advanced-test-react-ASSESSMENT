@@ -3,7 +3,7 @@ import { Button } from "../button";
 import "./styles/modal.css";
 
 interface ModalProps {
-  onAction?: () => void;
+  onAction?: (value: any) => void;
   onClose?: () => void;
   actionButtonText?: string;
   children?: ReactNode;
